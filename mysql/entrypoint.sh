@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 
 service mysql start
 mysql -u root -e "CREATE DATABASE IF NOT EXISTS $MYSQL_DATABASE;"

@@ -38,4 +38,5 @@ VOLUME [ "/var/lib/mysql" ]
 
 EXPOSE 3306
 ENTRYPOINT [ "/bin/bash" , "/entrypoint.sh"]
+
 CMD ["mysqld"]
