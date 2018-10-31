@@ -1,6 +1,8 @@
 FROM ubuntu:18.04
 
-#RUN apt-get update
+LABEL maintainer="muhammadshulkhan@gmail.com"
+LABEL version="10.3"
+
 ENV MYSQL_ROOT_PASSWORD=root
 ENV MYSQL_DATABASE=mysqldocker
 ENV MYSQL_USER=docker
