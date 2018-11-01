@@ -1,5 +1,7 @@
 FROM ubuntu:18.04
 
+LABEL maintainer="muhammadshulkhan@gmail.com"
+
 ENV TZ=Asia/Jakarta
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
